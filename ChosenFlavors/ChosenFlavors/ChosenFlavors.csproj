@@ -69,7 +69,6 @@
   <ItemGroup>
     <Content Include="image\tomato.jpg" />
     <Content Include="index.html" />
-    <Content Include="signup.html" />
     <Content Include="styles\styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
