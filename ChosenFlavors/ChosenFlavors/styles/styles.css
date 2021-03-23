@@ -1,14 +1,17 @@
 ﻿html {
-    font-size: 62.5%;
+    font-size: 160%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+/*this is for the picture <tomato>*/
 .container {
     position: relative;
     text-align: center;
     color: white;
+
 }
 
+/*this is for the text that goes in the middle of the picture*/
 .centered {
     font-size: 25px;
     position: absolute;
@@ -17,7 +20,8 @@
     transform: translate(-50%, -50%);
 }
  
-img{
-    width: 600px;
+/*adjusting the image of the title picture */
+.titlepicture{
+    width: 700px;
     height: auto;
 }
