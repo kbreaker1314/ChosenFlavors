@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="/styles/styles.css" />
     <meta charset="utf-8" />
     <title></title>
 </head>
@@ -9,17 +10,18 @@
     <form >
         <h1> Create your account: </h1>
         <p> (all * required) </p>
+        <div id="registerform">
+            <label for="first-name">First name*:</label> <br>
+            <input type="text" id="first-name" name="FirstName" required="required" autofocus="autofocus" /> <br>
+            <label for="last-name">Last name*:</label> <br>
+            <input type="text" id="last-name" name="LastName" required="required" autofocus="autofocus" /> <br>
+            <label for="form_id">ID*:</label> <br>
+            <input type="text" id="form_id" name="FormID" required="required" autofocus="autofocus" /> <br>
+            <label for="form_password">password*:</label> <br>
+            <input type="password" id="form_password" name="FormPassword" required="required" autofocus="autofocus" /> <br>
 
-        <label for="first-name">First name*:</label> <br>
-        <input type="text" id="first-name" name="FirstName" required="required" autofocus="autofocus" /> <br>
-        <label for="last-name">Last name*:</label> <br>
-        <input type="text" id="last-name" name="LastName" required="required" autofocus="autofocus" /> <br>
-        <label for="form_id">ID*:</label> <br>
-        <input type="text" id="form_id" name="FormID" required="required" autofocus="autofocus" /> <br>
-        <label for="form_password">password*:</label> <br>
-        <input type="password" id="form_password" name="FormPassword" required="required" autofocus="autofocus" /> <br>
-
-        <input type="submit" value="Submit">
+            <input type="submit" value="Submit">
+        </div>
     </form>
 </body>
 </html>

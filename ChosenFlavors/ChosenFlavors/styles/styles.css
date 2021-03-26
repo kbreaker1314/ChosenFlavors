@@ -3,6 +3,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+#registerform {
+    margin: 10px;
+}
+
 /*this is for the picture <tomato>*/
 .container {
     position: relative;
@@ -25,3 +29,4 @@
     width: 700px;
     height: auto;
 }
+
