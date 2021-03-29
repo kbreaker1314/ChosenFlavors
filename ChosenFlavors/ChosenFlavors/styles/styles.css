@@ -11,6 +11,7 @@
 .container {
     position: relative;
     text-align: center;
+    padding: 150px;
     color: white;
 
 }
