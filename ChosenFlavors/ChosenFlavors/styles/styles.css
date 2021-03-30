@@ -3,9 +3,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-#registerform {
-    margin: 10px;
+#registerform form.submission-attempted input:invalid {
+    background-color: lightgreen;
+    outline: none;
 }
+
 
 /*this is for the picture <tomato>*/
 .container {
@@ -29,9 +31,5 @@
 .titlepicture{
     width: 700px;
     height: auto;
-}
-
-.nav-bar {
-
 }
 
