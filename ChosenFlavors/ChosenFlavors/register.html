@@ -12,6 +12,7 @@
         <p> (all * required) </p>
         <div id="registerform">
 
+            <!-- autofocus start the page with the item highlighted for the user-->
             <label for="first-name">First name*:</label> <br>
             <input type="text" id="first-name" name="FirstName" required="required" autofocus="autofocus" /> <br>
 
@@ -21,6 +22,7 @@
             <label for="form_id">ID*:</label> <br>
             <input type="text" id="form_id" name="FormID" required="required" /> <br>
 
+            <!-- added requirement for password of atleast 7 characters-->
             <label for="form_password">password*:</label> <br>
             <input type="password" id="form_password" name="FormPassword" required="required" pattern="[a-zA-Z0-9]{7,}" title="minimum of 7 characters"/> <br>
 
