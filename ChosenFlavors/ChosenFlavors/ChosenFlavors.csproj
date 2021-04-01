@@ -71,6 +71,7 @@
     <Content Include="index.html" />
     <Content Include="register.html" />
     <Content Include="scripts\register.js" />
+    <Content Include="styles\pages\register.css" />
     <Content Include="styles\styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>

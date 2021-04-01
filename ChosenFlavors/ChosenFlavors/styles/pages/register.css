@@ -1,0 +1,11 @@
+﻿
+.register #registerform {
+    margin: 10px;
+}
+
+.register form.submission-attempted input:invalid {
+    background-color: lightcoral;
+    outline: none;
+    
+}
+
