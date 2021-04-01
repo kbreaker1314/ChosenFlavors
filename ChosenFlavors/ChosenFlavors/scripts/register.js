@@ -1,4 +1,4 @@
-﻿// Get register <form> element from DOM.
+// Get register <form> element from DOM.
 var form = document.getElementById("registerform");
 var submitButton = form.querySelector("button");
 
