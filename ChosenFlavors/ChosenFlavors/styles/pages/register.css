@@ -6,5 +6,6 @@
 .register form.submission-attempted input:invalid {
     background-color: lightcoral;
     outline: none;
+    
 }
 
