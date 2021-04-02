@@ -6,7 +6,7 @@
 #registerform form.submission-attempted input:invalid {
     background-color: lightgreen;
     outline: none;
-
+}
 /*# apply to the specific id*/
 #registerform {
     margin: 30px;
@@ -42,4 +42,8 @@
     background-color: deepskyblue;
     line-height: 4rem;
     font-size: 1rem;
+}
+
+.nav-bar-format {
+    margin: 20rem 0rem;
 }
