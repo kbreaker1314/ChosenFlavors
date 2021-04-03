@@ -20,6 +20,7 @@ nav a {
 .nav-bar-format {
 }
 
+/* rem is just a bigger size for px, 1rem = 16px*/
 .container {
     /*changing the color portion*/
     padding: 0 1rem;
