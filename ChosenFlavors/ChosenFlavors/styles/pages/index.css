@@ -1,2 +1,23 @@
-﻿body {
+﻿/*this is for the picture <tomato>*/
+#tomatopicture {
+    position: relative;
+    text-align: center;
+    padding: 150px;
+    color: white;
+}
+
+/*adjusting the size the image of the title picture */
+#titlepicture {
+    width: 700px;
+    height: auto;
+}
+
+
+/*this is for the text that goes in the middle of the picture*/
+#titlecenter {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

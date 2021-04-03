@@ -3,30 +3,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-
-/*this is for the picture <tomato>*/
-.container {
-    position: relative;
-    text-align: center;
-    padding: 150px;
-    color: white;
-
-}
-
 /*this is for the text that goes in the middle of the picture*/
-.centered {
-    font-size: 25px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
  
 /*adjusting the size the image of the title picture */
-.titlepicture{
-    width: 700px;
-    height: auto;
-}
+
 
 /*the top bar properties*/
 .nav-bar {
