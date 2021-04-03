@@ -3,6 +3,12 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+/*changing the space between each nav*/
+nav a {
+    color: #fff;
+    margin: 10px;
+}
+
 /*the top bar properties*/
 .nav-bar {
     background-color: deepskyblue;
@@ -15,10 +21,9 @@
 
 .container {
     /*changing the color portion*/
-    padding: 0 4rem;
+    padding: 0 1rem;
     /*changing how much you can fit in a line basically*/
     max-width: 100rem;
     /* changing the space on top */
-
     margin: 10px auto;
 }
