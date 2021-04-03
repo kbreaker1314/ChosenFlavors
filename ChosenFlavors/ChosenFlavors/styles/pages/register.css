@@ -1,6 +1,5 @@
-﻿
-.register #registerform {
-    margin: 10px;
+﻿.register #registerform {
+    margin: 70px;
 }
 
 .register form.submission-attempted input:invalid {
@@ -9,3 +8,7 @@
     
 }
 
+.password_font {
+    list-style-type: square;
+    font-size: 10px;
+}
