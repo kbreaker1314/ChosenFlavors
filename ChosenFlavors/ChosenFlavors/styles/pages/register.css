@@ -1,5 +1,7 @@
-﻿.register #registerform {
-    margin: 70px;
+﻿/* "#" is for individual item (id), "." is for classes (class)*/
+
+#registerform {
+    margin-left: 30px;
 }
 
 .register form.submission-attempted input:invalid {
