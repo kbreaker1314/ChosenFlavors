@@ -39,6 +39,11 @@
     top: 250px; left: 0; bottom: 0; right: 0;
     width: 700px;
     height: auto;
+  
+/*changing the space between each nav*/
+nav a {
+    color: #fff;
+    margin: 10px;
 }
 
 /*the top bar properties*/
@@ -46,4 +51,17 @@
     background-color: deepskyblue;
     line-height: 4rem;
     font-size: 1rem;
+}
+
+/*idk what this for*/
+.nav-bar-format {
+}
+
+.container {
+    /*changing the color portion*/
+    padding: 0 1rem;
+    /*changing how much you can fit in a line basically*/
+    max-width: 100rem;
+    /* changing the space on top */
+    margin: 10px auto;
 }
