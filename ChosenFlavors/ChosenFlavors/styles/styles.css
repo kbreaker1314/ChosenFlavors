@@ -3,38 +3,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-#registerform form.submission-attempted input:invalid {
-    background-color: lightgreen;
-    outline: none;
-}
-/*# apply to the specific id*/
-#registerform {
-    margin: 30px;
-}
-
-
-/*this is for the picture <tomato>*/
-.container {
-    position: relative;
-    text-align: center;
-    padding: 150px;
-    color: white;
-
-}
-
-/*this is for the text that goes in the middle of the picture*/
-.centered {
-    font-size: 25px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
- 
-/*adjusting the size the image of the title picture */
-.titlepicture{
-    width: 700px;
-    height: auto;
+/*changing the space between each nav*/
+nav a {
+    color: #fff;
+    margin: 10px;
 }
 
 /*the top bar properties*/
@@ -44,6 +16,15 @@
     font-size: 1rem;
 }
 
+/*idk what this for*/
 .nav-bar-format {
-    margin: 20rem 0rem;
+}
+
+.container {
+    /*changing the color portion*/
+    padding: 0 1rem;
+    /*changing how much you can fit in a line basically*/
+    max-width: 100rem;
+    /* changing the space on top */
+    margin: 10px auto;
 }
