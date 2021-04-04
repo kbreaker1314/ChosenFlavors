@@ -27,13 +27,16 @@
 .centered {
     font-size: 25px;
     position: absolute;
-    top: 50%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
  
 /*adjusting the size the image of the title picture */
-.titlepicture{
+.titlepicture {
+    margin: auto;
+    position: absolute;
+    top: 250px; left: 0; bottom: 0; right: 0;
     width: 700px;
     height: auto;
 }
