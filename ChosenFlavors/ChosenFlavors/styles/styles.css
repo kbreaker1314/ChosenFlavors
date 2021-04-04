@@ -1,8 +1,19 @@
 ﻿html {
     font-size: 130%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#registerform form.submission-attempted input:invalid {
+    background-color: lightgreen;
+    outline: none;
+}
+
+/*# apply to the specific id*/
+#registerform {
+    margin: 30px;
+}
+
+  
 /*changing the space between each nav*/
 nav a {
     color: #fff;
@@ -20,6 +31,8 @@ nav a {
 .nav-bar-format {
 }
 
+
+/* 16px = 1rem */
 .container {
     /*changing the color portion*/
     padding: 0 1rem;
