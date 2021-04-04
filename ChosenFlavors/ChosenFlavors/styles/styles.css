@@ -6,6 +6,7 @@
 #registerform form.submission-attempted input:invalid {
     background-color: lightgreen;
     outline: none;
+}
 
 /*# apply to the specific id*/
 #registerform {
