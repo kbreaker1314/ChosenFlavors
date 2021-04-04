@@ -1,17 +1,5 @@
 ﻿/* "#" is for individual item (id), "." is for classes (class)*/
 
-/*moving form toto the right*/
-#registerform {
-    margin-left: 30px;
-}
-
-/*ponchoe  you gonna make this work?*/
-.register form.submission-attempted input:invalid {
-    background-color: lightcoral;
-    outline: none;
-    
-}
-
 /*attribute for password requirement list*/
 .password_font {
     list-style-type: square;
