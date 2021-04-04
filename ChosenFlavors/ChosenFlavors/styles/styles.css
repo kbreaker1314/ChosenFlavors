@@ -3,18 +3,17 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /*
-/*moving form toto the right
-#registerform {
-    background-color: lightcoral;
+/*moving form to the right, after research, the only way to make the box turn red is to use javascript.
+#registerform form.submission-attempted input:invalid {
+    background-color: lightgreen;
     outline: none;
-    margin-left: 30px;
 }
 
 #register {
     background-color: lightcoral;
     outline: none;
 }
-    */
+*/
 
 input {
     border: 2px solid;
