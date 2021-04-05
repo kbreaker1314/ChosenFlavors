@@ -30,9 +30,9 @@ input:required:focus{
     background-color: lightblue;
 }
 
-input:invalid {
+div.submission-attempted input:invalid {
     border-color: red;
-
+    outline: none;
 }
   
 /*changing the space between each nav*/
@@ -47,12 +47,6 @@ nav a {
     line-height: 4rem;
     font-size: 1rem;
 }
-
-/*idk what this for*/
-.nav-bar-format {
-
-}
-
 
 /* 16px = 1rem */
 .container {
