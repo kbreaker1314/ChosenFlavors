@@ -2,17 +2,38 @@
     font-size: 130%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/*
+/*moving form to the right, after research, the only way to make the box turn red is to use javascript.
 #registerform form.submission-attempted input:invalid {
     background-color: lightgreen;
     outline: none;
 }
 
-/*# apply to the specific id*/
-#registerform {
-    margin: 30px;
+#register {
+    background-color: lightcoral;
+    outline: none;
+}
+*/
+
+input {
+    border: 2px solid;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 0.25rem;
+    min-width: 125px;
+    padding: 0.5rem;
+    transition: background-color 0.5s ease-out;
 }
 
+input:required:focus{
+    border-color: black;
+    background-color: lightblue;
+}
+
+input:invalid {
+    border-color: red;
+
+}
   
 /*changing the space between each nav*/
 nav a {
@@ -29,6 +50,7 @@ nav a {
 
 /*idk what this for*/
 .nav-bar-format {
+
 }
 
 
