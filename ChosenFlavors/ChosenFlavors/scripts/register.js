@@ -12,4 +12,4 @@ const addSubmitClickEventListener = function () {
     submitButton.addEventListener("click", formSubmissionAttempted, false);
 };
 
-addSubmitClickEventListener;
+addSubmitClickEventListener();
