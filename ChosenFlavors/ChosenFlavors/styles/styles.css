@@ -2,43 +2,38 @@
     font-size: 130%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/*
+/*moving form to the right, after research, the only way to make the box turn red is to use javascript.
 #registerform form.submission-attempted input:invalid {
     background-color: lightgreen;
     outline: none;
 }
 
-/*# apply to the specific id*/
-#registerform {
-    margin: 30px;
+#register {
+    background-color: lightcoral;
+    outline: none;
+}
+*/
+
+input {
+    border: 2px solid;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 0.25rem;
+    min-width: 125px;
+    padding: 0.5rem;
+    transition: background-color 0.5s ease-out;
 }
 
-
-/*this is for the picture <tomato>*/
-.container {
-    position: relative;
-    text-align: center;
-    padding: 150px;
-    color: white;
-
+input:required:focus{
+    border-color: black;
+    background-color: lightblue;
 }
 
-/*this is for the text that goes in the middle of the picture*/
-.centered {
-    font-size: 25px;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+input:invalid {
+    border-color: red;
+
 }
- 
-/*adjusting the size the image of the title picture */
-.titlepicture {
-    margin: auto;
-    position: absolute;
-    top: 250px; left: 0; bottom: 0; right: 0;
-    width: 700px;
-    height: auto;
   
 /*changing the space between each nav*/
 nav a {
@@ -55,8 +50,11 @@ nav a {
 
 /*idk what this for*/
 .nav-bar-format {
+
 }
 
+
+/* 16px = 1rem */
 .container {
     /*changing the color portion*/
     padding: 0 1rem;
