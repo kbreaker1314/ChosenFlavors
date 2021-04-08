@@ -3,6 +3,14 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body #bg {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    clip-path: polygon(100% 1%, 100% 10%, 10% 99%, 0% 99%, 0% 30%);
+    position: absolute;
+    z-index: -1;
+}
 
 input {
     border: 2px solid;
