@@ -20,6 +20,7 @@
 
 /*this is for the text that goes in the middle of the picture*/
 #titlecenter {
+    font-style: italic;
     font-size: 25px;
     position: absolute;
     top: 50%;
