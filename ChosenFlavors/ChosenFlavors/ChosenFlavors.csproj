@@ -71,6 +71,7 @@
     <Content Include="index.html" />
     <Content Include="register.html" />
     <Content Include="scripts\register.js" />
+    <Content Include="searchpage.html" />
     <Content Include="styles\pages\index.css" />
     <Content Include="styles\pages\register.css" />
     <Content Include="styles\styles.css" />
