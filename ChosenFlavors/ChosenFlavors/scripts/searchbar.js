@@ -6,6 +6,7 @@
     if (text.length > 0) {
         document.getElementById("list").appendChild(node);
     }
+    document.getElementById("searchtext").value = "";
 }
 
 function Dragged(ev) {
