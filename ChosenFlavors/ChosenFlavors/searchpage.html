@@ -17,7 +17,7 @@
         </div>
     </nav>
 
-    <div id="searchbar">
+    <div id="searchbar" ondragover="event.preventDefault();" ondrop="Dropping(event);">
         <input type="text" placeholder="Put your flavor" id="searchtext" />
         <input type="button" value="Add" id="add" />
     </div>
@@ -27,7 +27,7 @@
     </div>
 
 
-    <div id="limitBox">
+    <div id="limitBox" ondragover="event.preventDefault();" ondrop="Dropping(event);">
         <ul id="list">
             <li> bao </li>
             <li> ponchoe</li>

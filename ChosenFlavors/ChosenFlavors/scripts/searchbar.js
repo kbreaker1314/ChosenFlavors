@@ -3,5 +3,16 @@
     var text = document.getElementById("searchtext").value;
     var textnode = document.createTextNode(text);
     node.appendChild(textnode); 
-    document.getElementById("list").appendChild(node);
+    if (text.length > 0) {
+        document.getElementById("list").appendChild(node);
+    }
+}
+
+function Dragged(ev) {
+    ev.dataTransfer.setData("saveData", document.getElementsByIdName("tomato")[0].id);
+}
+
+function Dropping(ev) {
+    let the_id = ev.dataTransfer.getData("saveData");
+    ev.target.appendChild(document.getElementById(the_id));
 }
