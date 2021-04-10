@@ -21,3 +21,9 @@ input:focus {
 ul {
     margin: 0 auto;
 }
+
+img {
+    position: absolute;
+    width: 200px;
+    height: auto;
+}
