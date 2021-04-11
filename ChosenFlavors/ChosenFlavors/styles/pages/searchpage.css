@@ -27,3 +27,7 @@ img {
     width: 200px;
     height: auto;
 }
+
+#ingredientList {
+    float: right;
+}

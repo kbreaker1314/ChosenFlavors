@@ -17,18 +17,18 @@
         </div>
     </nav>
 
-    <div id="searchbar" ondragover="event.preventDefault();" ondrop="Dropping(event);">
+    <div id="searchbar">
         <input type="text" placeholder="Put your flavor" id="searchtext" />
         <input type="button" value="Add" id="add" />
     </div>
 
     <div id="ingredientList">
-        <img id="tomato" src="ingredientPictures/tomatoIng.jpg" ondragstart="Dragged(event)" draggable="true" />
+        <img id="tomato" src="ingredientPictures/tomatoIng.jpg" draggable="true" ondragstart="drag(event)" />
     </div>
 
 
-    <div id="limitBox" ondragover="event.preventDefault();" ondrop="Dropping(event);">
-        <ul id="list">
+    <div id="limitBox" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <ul id="list" >
             <li> bao </li>
             <li> ponchoe</li>
         </ul>

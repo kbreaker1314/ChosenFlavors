@@ -9,11 +9,12 @@
     document.getElementById("searchtext").value = "";
 }
 
-function Dragged(ev) {
-    ev.dataTransfer.setData("saveData", document.getElementsByIdName("tomato")[0].id);
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
 }
 
-function Dropping(ev) {
-    let the_id = ev.dataTransfer.getData("saveData");
-    ev.target.appendChild(document.getElementById(the_id));
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
 }
