@@ -69,8 +69,8 @@
   <ItemGroup>
     <Content Include="image\tomato.jpg" />
     <Content Include="index.html" />
-    <Content Include="ingredientPictures\avocado.jpg" />
-    <Content Include="ingredientPictures\tomatoIng.jpg" />
+    <Content Include="ingredientPictures\avocado1.jpg" />
+    <Content Include="ingredientPictures\tomato.jpg" />
     <Content Include="login.html" />
     <Content Include="register.html" />
     <Content Include="scripts\register.js" />

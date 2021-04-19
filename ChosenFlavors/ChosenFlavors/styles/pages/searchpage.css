@@ -37,8 +37,13 @@ ol {
     flex-wrap: wrap;
     align-items: center;
     position: absolute;
-    justify-content: space-evenly;
+    justify-content: center;
     border-inline: 1px dashed;
+}
+
+img:hover {
+    opacity: .5;
+    transition: .9s;
 }
 
 .item {
