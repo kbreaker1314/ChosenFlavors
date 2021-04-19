@@ -32,13 +32,21 @@ ol {
 }
 
 #pictureFrame {
+    width: 35%;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     position: absolute;
+    justify-content: space-evenly;
+    border-inline: 1px dashed;
 }
 
-img {
-    width: 100px;
+.item {
+    order: 5;
+    padding: 1rem;
+    width: 70px;
     height: auto;
 }
+
 
 /* add grid layout*/
