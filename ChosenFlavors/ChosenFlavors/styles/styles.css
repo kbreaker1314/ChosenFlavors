@@ -42,16 +42,20 @@ nav a {
 /*the top bar properties*/
 .nav-bar {
     background-color: #87CEFA;
-    line-height: 4rem;
     font-size: 1rem;
 }
 
 /* 16px = 1rem */
 .container {
+    display: flex;
     /*changing the color portion*/
     padding: 0 1rem;
     /*changing how much you can fit in a line basically*/
     max-width: 100rem;
     /* changing the space on top */
     margin: 10px auto;
+}
+
+.nav-item {
+    border-inline: 1px dashed black;
 }
