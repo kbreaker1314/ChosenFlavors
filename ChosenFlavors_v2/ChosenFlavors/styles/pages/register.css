@@ -1,7 +1,0 @@
-﻿/* "#" is for individual item (id), "." is for classes (class)*/
-
-/*attribute for password requirement list*/
-.password_font {
-    list-style-type: square;
-    font-size: 10px;
-}

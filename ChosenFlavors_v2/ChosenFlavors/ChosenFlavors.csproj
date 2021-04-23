@@ -13,6 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\js\scripts\register.js" />
+    <None Include="wwwroot\js\scripts\searchbar.js" />
     <None Include="wwwroot\login.html" />
     <None Include="wwwroot\register.html" />
     <None Include="wwwroot\searchpage.html" />
