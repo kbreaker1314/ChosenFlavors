@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <None Include="wwwroot\login.html" />
+    <None Include="wwwroot\register.html" />
   </ItemGroup>
 
 </Project>
