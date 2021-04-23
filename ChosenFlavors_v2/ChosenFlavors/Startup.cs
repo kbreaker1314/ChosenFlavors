@@ -26,7 +26,7 @@ namespace ChosenFlavors
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("TODO");
+                await context.Response.WriteAsync("middleware is running");
             });
         }
     }

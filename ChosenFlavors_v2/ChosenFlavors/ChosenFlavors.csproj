@@ -10,6 +10,8 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\Controllers\" />
+    <Folder Include="wwwroot\Model\" />
   </ItemGroup>
 
   <ItemGroup>
