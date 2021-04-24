@@ -4,13 +4,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ChosenFlavors.wwwroot.Controllers
+namespace ChosenFlavorController
 {
-    public class HomeController : Controller
+    public class FoodController : Controller
     {
         public IActionResult Index()
         {
-            return View();
+            return Content("No food");
+        }
+
+        public IActionResult Show(int id)
+        {
+            
         }
     }
 }
