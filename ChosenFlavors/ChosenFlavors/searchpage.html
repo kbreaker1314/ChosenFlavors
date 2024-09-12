@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/pages/searchpage.css" type="text/css" />
+
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="container">
+            <a href="/index.html">Home</a>
+            <a href="/register.html">Register</a>
+            <a href="/login.html">Login</a>
+            <a href="/searchpage.html">Search</a>
+        </div>
+    </nav>
+
+    <div id="searchbar">
+        <input type="text" placeholder="Put your flavor" id="searchtext" />
+        <input type="button" value="Add" id="add" />
+    </div>
+
+    <div id="pictureFrame">
+        <img id="tomato" class="item" src="ingredientPictures/tomato.jpg" draggable="true" ondragstart="drag(event)" />
+        <img id="avocado" class ="item" src="ingredientPictures/avocado1.jpg" draggable="true" ondragstart="drag(event)" /> 
+    </div>
+
+    <div id="limitBox">
+        <ol id="list" >
+            <li> bsbfsdfbsdfb </li>
+            <li> ponchoe</li>
+        </ol>
+    </div>
+
+
+
+    <script src="/scripts/searchbar.js" type="text/javascript"></script>
+</body>
+</html>

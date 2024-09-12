@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\login.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Food\" />
+    <Folder Include="wwwroot\css\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\scripts\register.js" />
+    <None Include="wwwroot\js\scripts\searchbar.js" />
+    <None Include="wwwroot\login.html" />
+    <None Include="wwwroot\register.html" />
+    <None Include="wwwroot\searchpage.html" />
+  </ItemGroup>
+
+</Project>
